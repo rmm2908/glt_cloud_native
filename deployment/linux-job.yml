@@ -1,0 +1,14 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: linux-job-rmm2908
+spec:
+  template:
+    spec:
+      containers:
+      - name: linux-job-rmm2908
+        image:  msdevgrazregistry.azurecr.io/linux:job
+      nodeSelector: 
+        kubernetes.io/os: linux
+      restartPolicy: Never
+  backoffLimit: 4
