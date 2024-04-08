@@ -1,0 +1,2 @@
+Cloud Native Workshop from the GLT24 held by [Patrick Koch](https://github.com/patkoch). <br>
+This repo contains code from the following repos: [glt24-patrick](https://github.com/patkoch/glt24-patrick), [terraform-azure-virtual-machine-linux](https://github.com/patkoch/terraform-azure-virtual-machine-linux) and [container](https://github.com/patkoch/container)
